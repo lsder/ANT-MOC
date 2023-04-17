@@ -1,0 +1,1 @@
+ cd /public/home/aicao/lsder/beijing/NewMOC/build && make && cp /public/home/aicao/lsder/beijing/NewMOC/build/run/newmoc /public/home/aicao/lsder/beijing/NewMOC/run && cd /public/home/aicao/lsder/beijing/NewMOC/run && ./newmoc --config="./config.yaml"
