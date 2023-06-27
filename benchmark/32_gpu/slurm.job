@@ -1,0 +1,21 @@
+NTASKS=32
+#!/bin/bash
+JOBNAME="MOC-blk"
+cp ~/ANT-MOC/build/run/newmoc .
+echo "TASK MOC C5G7 TEST START NTASK=$NTASKS "
+nowdate=$(date +%Y_%m_%d_%H_%M_%S)
+echo $nowdate
+sbatch << END
+#!/bin/bash
+#SBATCH -J $JOBNAME
+#SBATCH -o c5g7-$NTASKS-%j-$nowdate.log
+#SBATCH -e c5g7-$NTASKS-%j-$nowdate.err
+#SBATCH -p normal 
+#SBATCH --cpus-per-task=8
+#SBATCH --ntasks-per-node=4
+#SBATCH --gres=dcu:4
+#SBATCH --exclude=j14r1n14,j09r3n11,j10r4n02,h05r4n16
+#SBATCH -n $NTASKS
+mpirun -n $NTASKS ./newmoc --config="./config.yaml" 
+
+END

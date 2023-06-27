@@ -1,0 +1,21 @@
+domain_decomposition: 
+    x: 4 
+    y: 4
+    z: 2
+ray_info:
+    azim_spacing: 1
+    num_azim: 4
+    polar_spacing: 1.0
+    num_polar: 4
+max_iters: 10
+load_geometry: 
+    if_load: false
+    geometry_file_path: ""
+dump_segments: false
+read_segments: false
+if_pre_track: false
+dump_domain: false
+onlycal_domain: false
+if_sort: true
+_B: 512
+_T: 512

@@ -1,0 +1,166 @@
+[  NORMAL ]  Number  processes =1
+[  TITLE  ]  *******************************************************************
+[  TITLE  ]            Simulating the OECD's C5G7 Benchmark Problem...          
+[  TITLE  ]  *******************************************************************
+[  NORMAL ]  Creating geometry...
+[  NORMAL ]  Reading Geometry from c5g7.geo
+[  NORMAL ]  Read complete
+[  NORMAL ]  Initializing flat source regions...
+[  NORMAL ]  Initializing the track generator...
+[  NORMAL ]  Initializing 2D tracks...
+[  NORMAL ]  Initializing 2D tracks reflections...
+[  NORMAL ]  Initializing 2D tracks array...
+[  NORMAL ]  Initializing 3D tracks...
+[  NORMAL ]  RMS polar angle correction 0.463545 %
+[  NORMAL ]  Max polar angle correction 0.908957 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 0.27 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 10.05 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 19.84 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 29.62 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 39.40 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 49.18 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 58.97 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 68.75 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 78.53 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 88.32 %
+[  NORMAL ]  Progress Initializing 3D Tracks: 100.00 %
+[  NORMAL ]  3D Tracks in domain: 82240
+[  NORMAL ]  Ray tracing for axially extruded track segmentation...
+[  NORMAL ]  Progress Segmenting 2D Tracks: 0.54 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 10.33 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 20.11 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 29.89 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 39.67 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 49.46 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 59.24 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 69.02 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 78.80 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 88.59 %
+[  NORMAL ]  Progress Segmenting 2D Tracks: 100.00 %
+[  NORMAL ]  Initializing FSRs axially...
+[  NORMAL ]  Initializing 3D FSRs in axially extruded regions...
+[  NORMAL ]  Progress initializing 3D FSRs: 0.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 10.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 20.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 30.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 40.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 50.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 60.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 70.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 80.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 90.00 %
+[  NORMAL ]  Progress initializing 3D FSRs: 100.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 0.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 10.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 20.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 30.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 40.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 50.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 60.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 70.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 80.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 90.00 %
+[  NORMAL ]  Progress reordering FSR IDs: 100.00 %
+[  NORMAL ]  Finished initializing 3D FSRs
+[  NORMAL ]  Initializing FSR lookup vectors
+[  NORMAL ]  Max 2D explicit track storage per domain 0.04 MB
+[  NORMAL ]  Max 2D explicit segment storage per domain 5.45 MB
+[  NORMAL ]  Total number of FSRs 527991
+[  NORMAL ]  Initializing MOC eigenvalue solver...
+[  NORMAL ]  Initializing solver arrays...
+[  NORMAL ]  Max boundary angular flux storage per domain =   9.21 MB
+[  NORMAL ]  Max scalar flux storage per domain =  59.13 MB
+[  NORMAL ]  Max source storage per domain =  29.57 MB
+[  NORMAL ]  Number of azimuthal angles = 4
+[  NORMAL ]  Azimuthal ray spacing = 1.000000
+[  NORMAL ]  Number of polar angles = 4
+[  NORMAL ]  Z-spacing = 1.000000
+[  NORMAL ]  Source type = Flat
+[  NORMAL ]  MOC transport undamped
+[  NORMAL ]  CMFD acceleration: OFF
+[  NORMAL ]  Using 1 threads
+[  NORMAL ]  Computing the eigenvalue...
+[  NORMAL ]  Iteration 0:  k_eff = 0.828603   res = 1.288E-01  delta-k (pcm) =
+[  NORMAL ]  ...  -17139 D.R. = 0.1288
+[  NORMAL ]  Iteration 1:  k_eff = 0.761394   res = 8.775E-02  delta-k (pcm) =
+[  NORMAL ]  ...  -6720 D.R. = 0.6814
+[  NORMAL ]  Iteration 2:  k_eff = 0.700101   res = 6.048E-02  delta-k (pcm) =
+[  NORMAL ]  ...  -6129 D.R. = 0.6893
+[  TITLE  ]  *******************************************************************
+[  TITLE  ]                             TIMING REPORT                           
+[  TITLE  ]  *******************************************************************
+[  RESULT ]  Total Track Generation & Segmentation Time...........2.6685E+01 sec
+[  RESULT ]  Track Generation Time................................2.6685E+01 sec
+[  RESULT ]  Pre track Time.......................................0.0000E+00 sec
+[  RESULT ]  Total time to solution...............................1.0289E+02 sec
+[  RESULT ]    Solver initialization..............................1.8153E+01 sec
+[  RESULT ]    Transport Sweep....................................8.1492E+01 sec
+[  RESULT ]    Transport Sweep....................................0.0000E+00 sec
+[  RESULT ]    Angular Flux Transfer..............................0.0000E+00 sec
+[  RESULT ]      Angular Flux Packing Time........................0.0000E+00 sec
+[  RESULT ]      Angular Flux Communication Time..................0.0000E+00 sec
+[  RESULT ]      Angular Flux Unpacking Time......................0.0000E+00 sec
+[  RESULT ]    Total Idle Time Between Sweep and Transfer.........0.0000E+00 sec
+[  RESULT ]  num_integrations.....................................1075336080
+[  RESULT ]  Integration time by segment-group-thread (sweep).....7.5782E-08 sec
+[  RESULT ]  Integration time by segment-group-thread (total).....9.5684E-08 sec
+[SEPARATOR]  -------------------------------------------------------------------
+[  RESULT ]             # tracks          # segments          # FSRs
+[SEPARATOR]  -------------------------------------------------------------------
+[  RESULT ]              82240            25603240            527991            
+[SEPARATOR]  -------------------------------------------------------------------
+[  NORMAL ]  Initializing FSRs on the GPU...
+[  NORMAL ]  Initializing solver arrays...
+[  NORMAL ]  Max source storage per domain =  29.57 MB
+[  NORMAL ]  Max boundary angular flux storage per domain =   4.61 MB
+[  NORMAL ]  Max scalar flux storage per domain =  59.13 MB
+[  NORMAL ]  Clone data to GPU...
+[  NORMAL ]  Cal segments numbers...
+[  NORMAL ]  OTF clone 3D track need data storage per domain: 22.10 MB
+[  NORMAL ]  OTF clone 3D track need data storage per domain: 431.75 MB
+[  NORMAL ]  Initializing MOC eigenvalue solver...
+[  NORMAL ]  Initializing FSRs on the GPU...
+[  NORMAL ]  Initializing solver arrays...
+[  NORMAL ]  Max boundary angular flux storage per domain =   4.61 MB
+[  NORMAL ]  Max scalar flux storage per domain =  59.13 MB
+[  NORMAL ]  Max source storage per domain =  29.57 MB
+[  NORMAL ]  Number of azimuthal angles = 4
+[  NORMAL ]  Azimuthal ray spacing = 1.000000
+[  NORMAL ]  Number of polar angles = 4
+[  NORMAL ]  Z-spacing = 1.000000
+[  NORMAL ]  Source type = None
+[  NORMAL ]  MOC transport undamped
+[  NORMAL ]  CMFD acceleration: OFF
+[  NORMAL ]  Computing the eigenvalue...
+[  NORMAL ]  OTFsolver time: 3.5211E-01 sec
+[  NORMAL ]  Iteration 0:  k_eff = 0.828603   res = 1.288E-01  delta-k (pcm) =
+[  NORMAL ]  ...  -17139 D.R. = 0.1288
+[  NORMAL ]  OTFsolver time: 3.5279E-01 sec
+[  NORMAL ]  Iteration 1:  k_eff = 0.761394   res = 8.775E-02  delta-k (pcm) =
+[  NORMAL ]  ...  -6720 D.R. = 0.6814
+[  NORMAL ]  OTFsolver time: 3.5458E-01 sec
+[  NORMAL ]  Iteration 2:  k_eff = 0.700101   res = 6.048E-02  delta-k (pcm) =
+[  NORMAL ]  ...  -6129 D.R. = 0.6893
+[  TITLE  ]  *******************************************************************
+[  TITLE  ]                             TIMING REPORT                           
+[  TITLE  ]  *******************************************************************
+[  RESULT ]  Total Track Generation & Segmentation Time...........3.3312E+01 sec
+[  RESULT ]  Track Generation Time................................3.3312E+01 sec
+[  RESULT ]  Pre track Time.......................................0.0000E+00 sec
+[  RESULT ]  Total time to solution...............................1.7564E+01 sec
+[  RESULT ]    Solver initialization..............................1.6021E+01 sec
+[  RESULT ]    Transport Sweep....................................1.5171E+00 sec
+[  RESULT ]    Transport Sweep....................................1.0596E+00 sec
+[  RESULT ]    Angular Flux Transfer..............................0.0000E+00 sec
+[  RESULT ]      Angular Flux Packing Time........................0.0000E+00 sec
+[  RESULT ]      Angular Flux Communication Time..................0.0000E+00 sec
+[  RESULT ]      Angular Flux Unpacking Time......................0.0000E+00 sec
+[  RESULT ]    Total Idle Time Between Sweep and Transfer.........0.0000E+00 sec
+[  RESULT ]  num_integrations.....................................1075336080
+[  RESULT ]  Integration time by segment-group-device (sweep).....1.4109E-09 sec
+[  RESULT ]  Integration time by segment-group-device (total).....1.6333E-08 sec
+[SEPARATOR]  -------------------------------------------------------------------
+[  RESULT ]             # tracks          # segments          # FSRs
+[SEPARATOR]  -------------------------------------------------------------------
+[  RESULT ]              82240            25603240            527991            
+[SEPARATOR]  -------------------------------------------------------------------
